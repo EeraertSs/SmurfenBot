@@ -1,0 +1,260 @@
+{
+    "tasks": [
+        {
+            "type": "exp",
+            "skill": "Fishing",
+            "amount": 300000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Woodcutting",
+            "amount": 250000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": null
+        },
+        {
+            "type": "exp",
+            "skill": "Agility",
+            "amount": 200000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Cooking",
+            "amount": 300000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": null
+        },
+        {
+            "type": "exp",
+            "skill": "Firemaking",
+            "amount": 250000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": null
+        },
+        {
+            "type": "exp",
+            "skill": "Crafting",
+            "amount": 200000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": null
+        },
+        {
+            "type": "exp",
+            "skill": "Thieving",
+            "amount": 250000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Hunter",
+            "amount": 200000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Runecraft",
+            "amount": 150000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": null
+        },
+        {
+            "type": "exp",
+            "skill": "Farming",
+            "amount": 300000,
+            "category": "Skilling",
+            "cooldown_weeks": 2,
+            "last_picked": null
+        },
+        {
+            "type": "exp",
+            "skill": "Slayer",
+            "amount": 500000,
+            "category": "Slayer Exp",
+            "cooldown_weeks": 3,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Slayer",
+            "amount": 400000,
+            "category": "Slayer Exp",
+            "cooldown_weeks": 3,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Slayer",
+            "amount": 350000,
+            "category": "Slayer Exp",
+            "cooldown_weeks": 3,
+            "last_picked": null
+        },
+        {
+            "type": "exp",
+            "skill": "Slayer",
+            "amount": 300000,
+            "category": "Slayer Exp",
+            "cooldown_weeks": 3,
+            "last_picked": null
+        },
+        {
+            "type": "exp",
+            "skill": "Slayer",
+            "amount": 250000,
+            "category": "Slayer Exp",
+            "cooldown_weeks": 3,
+            "last_picked": null
+        },
+        {
+            "type": "drop",
+            "description": "Get a drop from Zulrah",
+            "category": "Boss Drops",
+            "cooldown_weeks": 5,
+            "last_picked": null
+        },
+        {
+            "type": "drop",
+            "description": "Get a drop from Cerberus",
+            "category": "Boss Drops",
+            "cooldown_weeks": 5,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "drop",
+            "description": "Get a drop from Commander Zilyana",
+            "category": "Boss Drops",
+            "cooldown_weeks": 5,
+            "last_picked": null
+        },
+        {
+            "type": "drop",
+            "description": "Get a drop from Vorkath",
+            "category": "Boss Drops",
+            "cooldown_weeks": 5,
+            "last_picked": null
+        },
+        {
+            "type": "drop",
+            "description": "Get a drop from Kree'Arra",
+            "category": "Boss Drops",
+            "cooldown_weeks": 5,
+            "last_picked": null
+        },
+        {
+            "type": "drop",
+            "description": "Get a drop from Dagannoth Rex",
+            "category": "Boss Drops",
+            "cooldown_weeks": 5,
+            "last_picked": null
+        },
+        {
+            "type": "drop",
+            "description": "Get a drop from Kraken",
+            "category": "Boss Drops",
+            "cooldown_weeks": 5,
+            "last_picked": null
+        },
+        {
+            "type": "drop",
+            "description": "Get a drop from Sarachnis",
+            "category": "Boss Drops",
+            "cooldown_weeks": 5,
+            "last_picked": null
+        },
+        {
+            "type": "bosskc",
+            "boss": "Vorkath",
+            "amount": 10,
+            "category": "Boss KC",
+            "cooldown_weeks": 3,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "bosskc",
+            "boss": "Commander Zilyana",
+            "amount": 8,
+            "category": "Boss KC",
+            "cooldown_weeks": 3,
+            "last_picked": null
+        },
+        {
+            "type": "bosskc",
+            "boss": "Zulrah",
+            "amount": 10,
+            "category": "Boss KC",
+            "cooldown_weeks": 3,
+            "last_picked": null
+        },
+        {
+            "type": "bosskc",
+            "boss": "Kree'Arra",
+            "amount": 6,
+            "category": "Boss KC",
+            "cooldown_weeks": 3,
+            "last_picked": null
+        },
+        {
+            "type": "bosskc",
+            "boss": "Sarachnis",
+            "amount": 8,
+            "category": "Boss KC",
+            "cooldown_weeks": 3,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "clue",
+            "tier": "easy",
+            "amount": 5,
+            "category": "Clue Scrolls",
+            "cooldown_weeks": 2,
+            "last_picked": null
+        },
+        {
+            "type": "clue",
+            "tier": "medium",
+            "amount": 5,
+            "category": "Clue Scrolls",
+            "cooldown_weeks": 2,
+            "last_picked": null
+        },
+        {
+            "type": "clue",
+            "tier": "hard",
+            "amount": 3,
+            "category": "Clue Scrolls",
+            "cooldown_weeks": 3,
+            "last_picked": null
+        },
+        {
+            "type": "clue",
+            "tier": "elite",
+            "amount": 2,
+            "category": "Clue Scrolls",
+            "cooldown_weeks": 3,
+            "last_picked": null
+        },
+        {
+            "type": "clue",
+            "tier": "hard",
+            "amount": 5,
+            "category": "Clue Scrolls",
+            "cooldown_weeks": 3,
+            "last_picked": "2025-04-28"
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "tasks": [
+        {
+            "type": "drop",
+            "description": "Get a Zilyana Drop",
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "drop",
+            "description": "Get a Crystal From Cerberus",
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "drop",
+            "description": "Obtain a Dragon Pickaxe from Callisto",
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "drop",
+            "description": "Get a Kraken Tentacle",
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "drop",
+            "description": "Get a Visage from Vorkath",
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "drop",
+            "description": "Get any unique drop from Chambers of Xeric",
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "drop",
+            "description": "Obtain a Dark Bow from Dark Beasts",
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "drop",
+            "description": "Get a Berserker Ring from Dagannoth Rex",
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "drop",
+            "description": "Obtain a Rune Pouch from Bounty Hunter Shop",
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Fishing",
+            "amount": 150000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Strength",
+            "amount": 100000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Agility",
+            "amount": 50000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Slayer",
+            "amount": 60000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Magic",
+            "amount": 120000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Cooking",
+            "amount": 100000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Mining",
+            "amount": 80000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Woodcutting",
+            "amount": 90000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Fletching",
+            "amount": 70000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Crafting",
+            "amount": 85000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Runecraft",
+            "amount": 40000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Farming",
+            "amount": 50000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Hunter",
+            "amount": 60000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Prayer",
+            "amount": 45000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Ranged",
+            "amount": 100000,
+            "last_picked": "2025-04-28"
+        },
+        {
+            "type": "exp",
+            "skill": "Smithing",
+            "amount": 75000,
+            "last_picked": "2025-04-28"
+        }
+    ]
+}

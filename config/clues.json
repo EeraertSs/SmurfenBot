@@ -1,0 +1,30 @@
+[
+  {
+    "tier": "easy",
+    "avg_time_per_clue_min": 2,
+    "min_amount": 3,
+    "max_amount": 10,
+    "groupable": false
+  },
+  {
+    "tier": "medium",
+    "avg_time_per_clue_min": 5,
+    "min_amount": 2,
+    "max_amount": 5,
+    "groupable": true
+  },
+  {
+    "tier": "hard",
+    "avg_time_per_clue_min": 10,
+    "min_amount": 1,
+    "max_amount": 3,
+    "groupable": true
+  },
+  {
+    "tier": "elite",
+    "avg_time_per_clue_min": 20,
+    "min_amount": 1,
+    "max_amount": 2,
+    "groupable": false
+  }
+]

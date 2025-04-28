@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Attack",
+    "category": "Combat",
+    "xp_per_hour": 200000,
+    "weight": 0,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Strength",
+    "category": "Combat",
+    "xp_per_hour": 200000,
+    "weight": 0,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Defence",
+    "category": "Combat",
+    "xp_per_hour": 200000,
+    "weight": 0,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Hitpoints",
+    "category": "Combat",
+    "xp_per_hour": 200000,
+    "weight": 0,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Ranged",
+    "category": "Combat",
+    "xp_per_hour": 180000,
+    "weight": 0,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Magic",
+    "category": "Combat",
+    "xp_per_hour": 180000,
+    "weight": 0,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Prayer",
+    "category": "Combat",
+    "xp_per_hour": 50000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Cooking",
+    "category": "Skilling",
+    "xp_per_hour": 120000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Woodcutting",
+    "category": "Skilling",
+    "xp_per_hour": 35000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Fletching",
+    "category": "Skilling",
+    "xp_per_hour": 75000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Fishing",
+    "category": "Skilling",
+    "xp_per_hour": 60000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Firemaking",
+    "category": "Skilling",
+    "xp_per_hour": 125000,
+    "weight": 0,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Crafting",
+    "category": "Skilling",
+    "xp_per_hour": 70000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Smithing",
+    "category": "Skilling",
+    "xp_per_hour": 100000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Mining",
+    "category": "Skilling",
+    "xp_per_hour": 30000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Herblore",
+    "category": "Skilling",
+    "xp_per_hour": 70000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Agility",
+    "category": "Skilling",
+    "xp_per_hour": 50000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Thieving",
+    "category": "Skilling",
+    "xp_per_hour": 100000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Slayer",
+    "category": "Combat",
+    "xp_per_hour": 150000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Farming",
+    "category": "Skilling",
+    "xp_per_hour": 50000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Runecraft",
+    "category": "Skilling",
+    "xp_per_hour": 40000,
+    "weight": 5
+  },
+  {
+    "name": "Hunter",
+    "category": "Skilling",
+    "xp_per_hour": 90000,
+    "weight": 5,
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Construction",
+    "category": "Skilling",
+    "xp_per_hour": 110000,
+    "weight": 5,
+    "alwaysIncluded": false
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "name": "Abyssal Sire",
+    "difficulty": 3,
+    "kills_per_hour": 10,
+    "recommended_group_size": 1,
+    "weight": 3
+  },
+  {
+    "name": "Alchemical Hydra",
+    "difficulty": 4,
+    "kills_per_hour": 8,
+    "recommended_group_size": 1,
+    "weight": 10
+  },
+  {
+    "name": "Amoxliatl",
+    "difficulty": 5,
+    "kills_per_hour": 4,
+    "recommended_group_size": 1,
+    "weight": 2
+  },
+  {
+    "name": "Araxxor",
+    "difficulty": 5,
+    "kills_per_hour": 5,
+    "recommended_group_size": 1,
+    "weight": 2
+  },
+  {
+    "name": "Artio",
+    "difficulty": 2,
+    "kills_per_hour": 12,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "Barrows Chests",
+    "difficulty": 2,
+    "kills_per_hour": 20,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Bryophyta",
+    "difficulty": 1,
+    "kills_per_hour": 15,
+    "recommended_group_size": 1,
+    "weight": 8
+  },
+  {
+    "name": "Callisto",
+    "difficulty": 2,
+    "kills_per_hour": 10,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "Calvar'ion",
+    "difficulty": 2,
+    "kills_per_hour": 10,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "Cerberus",
+    "difficulty": 3,
+    "kills_per_hour": 15,
+    "recommended_group_size": 1,
+    "weight": 3
+  },
+  {
+    "name": "Chambers of Xeric",
+    "difficulty": 4,
+    "kills_per_hour": 1,
+    "recommended_group_size": 5,
+    "weight": 0
+  },
+  {
+    "name": "Chambers of Xeric: Challenge Mode",
+    "difficulty": 5,
+    "kills_per_hour": 5,
+    "recommended_group_size": 5,
+    "weight": 0
+  },
+  {
+    "name": "Chaos Elemental",
+    "difficulty": 2,
+    "kills_per_hour": 8,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Chaos Fanatic",
+    "difficulty": 1,
+    "kills_per_hour": 20,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "Commander Zilyana",
+    "difficulty": 4,
+    "kills_per_hour": 6,
+    "recommended_group_size": 3,
+    "weight": 3
+  },
+  {
+    "name": "Corporeal Beast",
+    "difficulty": 5,
+    "kills_per_hour": 2,
+    "recommended_group_size": 5,
+    "weight": 3
+  },
+  {
+    "name": "Crazy Archaeologist",
+    "difficulty": 1,
+    "kills_per_hour": 25,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "Dagannoth Prime",
+    "difficulty": 3,
+    "kills_per_hour": 12,
+    "recommended_group_size": 3,
+    "weight": 4
+  },
+  {
+    "name": "Dagannoth Rex",
+    "difficulty": 3,
+    "kills_per_hour": 12,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Dagannoth Supreme",
+    "difficulty": 3,
+    "kills_per_hour": 12,
+    "recommended_group_size": 3,
+    "weight": 4
+  },
+  {
+    "name": "Deranged Archaeologist",
+    "difficulty": 2,
+    "kills_per_hour": 20,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "Duke Sucellus",
+    "difficulty": 4,
+    "kills_per_hour": 5,
+    "recommended_group_size": 2,
+    "weight": 3
+  },
+  {
+    "name": "General Graardor",
+    "difficulty": 4,
+    "kills_per_hour": 6,
+    "recommended_group_size": 3,
+    "weight": 3
+  },
+  {
+    "name": "Giant Mole",
+    "difficulty": 2,
+    "kills_per_hour": 25,
+    "recommended_group_size": 1,
+    "weight": 6
+  },
+  {
+    "name": "Grotesque Guardians",
+    "difficulty": 3,
+    "kills_per_hour": 10,
+    "recommended_group_size": 1,
+    "weight": 3
+  },
+  {
+    "name": "Hespori",
+    "difficulty": 2,
+    "kills_per_hour": 1,
+    "recommended_group_size": 1,
+    "weight": 1
+  },
+  {
+    "name": "K'ril Tsutsaroth",
+    "difficulty": 4,
+    "kills_per_hour": 6,
+    "recommended_group_size": 3,
+    "weight": 3
+  },
+  {
+    "name": "Lunar Chests",
+    "difficulty": 2,
+    "kills_per_hour": 10,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "Kalphite Queen",
+    "difficulty": 4,
+    "kills_per_hour": 5,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Kraken",
+    "difficulty": 2,
+    "kills_per_hour": 50,
+    "recommended_group_size": 1,
+    "weight": 2
+  },
+  {
+    "name": "King Black Dragon",
+    "difficulty": 2,
+    "kills_per_hour": 15,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "Kree'Arra",
+    "difficulty": 4,
+    "kills_per_hour": 8,
+    "recommended_group_size": 3,
+    "weight": 3
+  },
+  {
+    "name": "Mimic",
+    "difficulty": 3,
+    "kills_per_hour": 2,
+    "recommended_group_size": 1,
+    "weight": 2
+  },
+  {
+    "name": "Nex",
+    "difficulty": 5,
+    "kills_per_hour": 1,
+    "recommended_group_size": 5,
+    "weight": 2
+  },
+  {
+    "name": "Nightmare",
+    "difficulty": 5,
+    "kills_per_hour": 1,
+    "recommended_group_size": 5,
+    "weight": 1
+  },
+  {
+    "name": "Phosani's Nightmare",
+    "difficulty": 5,
+    "kills_per_hour": 5,
+    "recommended_group_size": 1,
+    "weight": 1
+  },
+  {
+    "name": "Obor",
+    "difficulty": 1,
+    "kills_per_hour": 15,
+    "recommended_group_size": 1,
+    "weight": 8
+  },
+  {
+    "name": "Phantom Muspah",
+    "difficulty": 3,
+    "kills_per_hour": 10,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Sarachnis",
+    "difficulty": 3,
+    "kills_per_hour": 15,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Scorpia",
+    "difficulty": 2,
+    "kills_per_hour": 12,
+    "recommended_group_size": 2,
+    "weight": 5
+  },
+  {
+    "name": "Scurrius",
+    "difficulty": 2,
+    "kills_per_hour": 15,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Skotizo",
+    "difficulty": 3,
+    "kills_per_hour": 2,
+    "recommended_group_size": 1,
+    "weight": 2
+  },
+  {
+    "name": "Sol Heredit",
+    "difficulty": 4,
+    "kills_per_hour": 4,
+    "recommended_group_size": 2,
+    "weight": 3
+  },
+  {
+    "name": "Spindel",
+    "difficulty": 2,
+    "kills_per_hour": 12,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "Tempoross",
+    "difficulty": 2,
+    "kills_per_hour": 6,
+    "recommended_group_size": 8,
+    "weight": 7
+  },
+  {
+    "name": "The Gauntlet",
+    "difficulty": 4,
+    "kills_per_hour": 5,
+    "recommended_group_size": 1,
+    "weight": 5
+  },
+  {
+    "name": "The Corrupted Gauntlet",
+    "difficulty": 5,
+    "kills_per_hour": 4,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "The Hueycoatl",
+    "difficulty": 5,
+    "kills_per_hour": 3,
+    "recommended_group_size": 2,
+    "weight": 2
+  },
+  {
+    "name": "The Leviathan",
+    "difficulty": 4,
+    "kills_per_hour": 6,
+    "recommended_group_size": 2,
+    "weight": 3
+  },
+  {
+    "name": "The Royal Titans",
+    "difficulty": 5,
+    "kills_per_hour": 3,
+    "recommended_group_size": 5,
+    "weight": 2
+  },
+  {
+    "name": "The Whisperer",
+    "difficulty": 4,
+    "kills_per_hour": 5,
+    "recommended_group_size": 2,
+    "weight": 3
+  },
+  {
+    "name": "Theatre of Blood",
+    "difficulty": 5,
+    "kills_per_hour": 1,
+    "recommended_group_size": 5,
+    "weight": 0
+  },
+  {
+    "name": "Theatre of Blood: Hard Mode",
+    "difficulty": 5,
+    "kills_per_hour": 5,
+    "recommended_group_size": 5,
+    "weight": 0
+  },
+  {
+    "name": "Thermonuclear Smoke Devil",
+    "difficulty": 3,
+    "kills_per_hour": 15,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Tombs of Amascut",
+    "difficulty": 5,
+    "kills_per_hour": 1,
+    "recommended_group_size": 5,
+    "weight": 0
+  },
+  {
+    "name": "Tombs of Amascut: Expert Mode",
+    "difficulty": 5,
+    "kills_per_hour": 5,
+    "recommended_group_size": 5,
+    "weight": 0
+  },
+  {
+    "name": "TzKal-Zuk",
+    "difficulty": 5,
+    "kills_per_hour": 25,
+    "recommended_group_size": 1,
+    "weight": 1
+  },
+  {
+    "name": "TzTok-Jad",
+    "difficulty": 4,
+    "kills_per_hour": 5,
+    "recommended_group_size": 1,
+    "weight": 2
+  },
+  {
+    "name": "Vardorvis",
+    "difficulty": 4,
+    "kills_per_hour": 6,
+    "recommended_group_size": 2,
+    "weight": 3
+  },
+  {
+    "name": "Venenatis",
+    "difficulty": 3,
+    "kills_per_hour": 12,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Vet'ion",
+    "difficulty": 3,
+    "kills_per_hour": 10,
+    "recommended_group_size": 1,
+    "weight": 4
+  },
+  {
+    "name": "Vorkath",
+    "difficulty": 4,
+    "kills_per_hour": 8,
+    "recommended_group_size": 1,
+    "weight": 3
+  },
+  {
+    "name": "Wintertodt",
+    "difficulty": 2,
+    "kills_per_hour": 6,
+    "recommended_group_size": 8,
+    "weight": 8
+  },
+  {
+    "name": "Zalcano",
+    "difficulty": 3,
+    "kills_per_hour": 10,
+    "recommended_group_size": 5,
+    "weight": 6
+  },
+  {
+    "name": "Zulrah",
+    "difficulty": 4,
+    "kills_per_hour": 12,
+    "recommended_group_size": 1,
+    "weight": 3
+  }
+]
