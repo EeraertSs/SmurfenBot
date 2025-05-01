@@ -14,12 +14,12 @@ from library.osrs_highscores import Highscores
 # === CONFIG ===
 TOKEN = 'MTM2NjE4MjcyMTI4OTcxOTg3OA.Ga75j9.-nne1SElnAeTPJQNdvos0lRFjh1oFR0k3bmWik'
 CHANNEL_ID = 1366182280661569576
-PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf']
+PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf', 'TinyKeta', 'Ketaminiac', 'S0l0 Smurf']
 # PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf', 'OpenSauce', 'TinyKeta', 'Ketaminiac']
 GROUP = 'De Smurfen'
 
 BASE_DIR = os.path.dirname(__file__)
-BOSSES_FILE = os.path.join(BASE_DIR, '../config/smurfen_bosses.json')
+BOSSES_FILE = os.path.join(BASE_DIR, '../config/temp_bosses.json')
 SKILLS_FILE = os.path.join(BASE_DIR, '../config/skills.json')
 CLUES_FILE = os.path.join(BASE_DIR, '../config/clues.json')
 
@@ -66,7 +66,7 @@ def weighted_selection(items, num_select):
     return selected[:num_select]
 
 
-def generate_boss_tasks(bosses, num_tasks=6, players=len(PLAYERS)):
+def generate_boss_tasks(bosses, num_tasks=8, players=len(PLAYERS)):
     print("[GENERATOR] Generating boss tasks...")
     total_hours = calculate_total_hours(players=players)
     max_hours_bosskc = total_hours * 0.5  # 50% van totale tijd
@@ -89,7 +89,7 @@ def generate_boss_tasks(bosses, num_tasks=6, players=len(PLAYERS)):
         tasks.append({"type": "bosskc", "boss": b['name'], "amount": goal, "category": "Boss KC"})
     return tasks
 
-def generate_exp_tasks(skills, num_tasks=0, players=len(PLAYERS)):
+def generate_exp_tasks(skills, num_tasks=3, players=len(PLAYERS)):
     print("[GENERATOR] Generating exp tasks...")
     total_hours = calculate_total_hours(players=players)
     max_hours_exp = total_hours * 0.4  # 40% van totale tijd
