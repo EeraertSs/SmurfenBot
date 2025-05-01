@@ -19,7 +19,7 @@ GROUP = ['De Smurfen']  # Your group ironman Group Name
 TASKS = []
 START_STATS = {}
 HISCORES_API = "https://secure.runescape.com/m=hiscore_oldschool/index_lite.ws?player={}"
-TASK_POOL_FILE = "task_pool.json"
+TASK_POOL_FILE = ".../config/task_pool.json"
 
 intents = discord.Intents.default()
 intents.message_content = True

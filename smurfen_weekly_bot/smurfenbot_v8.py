@@ -15,9 +15,9 @@ PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf']
 GROUP = 'De Smurfen'
 
 BASE_DIR = os.path.dirname(__file__)
-BOSSES_FILE = os.path.join(BASE_DIR, 'config/updated_bosses.json')
-SKILLS_FILE = os.path.join(BASE_DIR, 'config/skills.json')
-CLUES_FILE = os.path.join(BASE_DIR, 'config/clues.json')
+BOSSES_FILE = os.path.join(BASE_DIR, '../config/updated_bosses.json')
+SKILLS_FILE = os.path.join(BASE_DIR, '../config/skills.json')
+CLUES_FILE = os.path.join(BASE_DIR, '../config/clues.json')
 
 # Globale state
 TASKS = []

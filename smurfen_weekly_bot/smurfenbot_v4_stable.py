@@ -16,7 +16,7 @@ GROUP = ['De Smurfen']
 
 TASKS = []
 START_STATS = {}
-TASK_POOL_FILE = "task_pool_v4.json"
+TASK_POOL_FILE = ".../config/task_pool_v4.json"
 
 intents = discord.Intents.default()
 intents.message_content = True
