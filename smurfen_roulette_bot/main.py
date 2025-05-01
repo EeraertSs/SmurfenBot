@@ -44,7 +44,6 @@ def generate_hourly_task():
         boss = random.choice(BOSSES_DATA)
         kills = max(1, int(boss['kills_per_hour'] * boss.get('group_size', 1)))
         return {
-            'type': 'bosskc',
             'boss': boss['name'],
             'amount': kills,
             'category': 'Boss KC'
