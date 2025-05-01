@@ -19,7 +19,7 @@ PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf']
 GROUP = 'De Smurfen'
 
 BASE_DIR = os.path.dirname(__file__)
-BOSSES_FILE = os.path.join(BASE_DIR, '../config/updated_bosses.json')
+BOSSES_FILE = os.path.join(BASE_DIR, '../config/smurfen_bosses.json')
 SKILLS_FILE = os.path.join(BASE_DIR, '../config/skills.json')
 CLUES_FILE = os.path.join(BASE_DIR, '../config/clues.json')
 
@@ -66,7 +66,7 @@ def weighted_selection(items, num_select):
     return selected[:num_select]
 
 
-def generate_boss_tasks(bosses, num_tasks=3, players=len(PLAYERS)):
+def generate_boss_tasks(bosses, num_tasks=6, players=len(PLAYERS)):
     print("[GENERATOR] Generating boss tasks...")
     total_hours = calculate_total_hours(players=players)
     max_hours_bosskc = total_hours * 0.5  # 50% van totale tijd
@@ -89,7 +89,7 @@ def generate_boss_tasks(bosses, num_tasks=3, players=len(PLAYERS)):
         tasks.append({"type": "bosskc", "boss": b['name'], "amount": goal, "category": "Boss KC"})
     return tasks
 
-def generate_exp_tasks(skills, num_tasks=3, players=len(PLAYERS)):
+def generate_exp_tasks(skills, num_tasks=0, players=len(PLAYERS)):
     print("[GENERATOR] Generating exp tasks...")
     total_hours = calculate_total_hours(players=players)
     max_hours_exp = total_hours * 0.4  # 40% van totale tijd

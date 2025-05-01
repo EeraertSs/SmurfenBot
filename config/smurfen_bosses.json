@@ -1,0 +1,587 @@
+[
+  {
+    "name": "Abyssal Sire",
+    "difficulty": 3,
+    "kills_per_hour": 17,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/2/2a/Abyssal_orphan.png?957a1",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Alchemical Hydra",
+    "difficulty": 4,
+    "kills_per_hour": 15,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/Ikkle_hydra_%28serpentine%29.png?80b36",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Amoxliatl",
+    "difficulty": 5,
+    "kills_per_hour": 4,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Amoxliatl.png/180px-Amoxliatl.png?01b12",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Araxxor",
+    "difficulty": 5,
+    "kills_per_hour": 5,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Araxxor.png/280px-Araxxor.png?35d2e",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Artio",
+    "difficulty": 2,
+    "kills_per_hour": 33,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/f/fb/Callisto_cub.png?80903",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Barrows Chests",
+    "difficulty": 2,
+    "kills_per_hour": 20,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/Chest_%28Barrows%2C_open%29.png?53b8f",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Bryophyta",
+    "difficulty": 1,
+    "kills_per_hour": 15,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Bryophyta.png/220px-Bryophyta.png?08bc8",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Callisto",
+    "difficulty": 2,
+    "kills_per_hour": 10,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/f/fb/Callisto_cub.png?80903",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Calvar'ion",
+    "difficulty": 2,
+    "kills_per_hour": 27,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/e/eb/Vet%27ion_jr..png?df1fe",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Cerberus",
+    "difficulty": 3,
+    "kills_per_hour": 20,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/7/74/Hellpuppy.png?9ece7",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Chambers of Xeric",
+    "difficulty": 4,
+    "kills_per_hour": 2,
+    "group_size": 2,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/f/f4/Olmlet.png?f8c27",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Chambers of Xeric: Challenge Mode",
+    "difficulty": 4,
+    "kills_per_hour": 1,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/f/f4/Olmlet.png?f8c27",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Chaos Elemental",
+    "difficulty": 4,
+    "kills_per_hour": 20,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/9/9c/Pet_chaos_elemental.png?4f9e4",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Chaos Fanatic",
+    "difficulty": 4,
+    "kills_per_hour": 20,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/9/9c/Pet_chaos_elemental.png?4f9e4",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Commander Zilyana",
+    "difficulty": 4,
+    "kills_per_hour": 17,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/5/55/Pet_zilyana.png?4208e",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Corporeal Beast",
+    "difficulty": 5,
+    "kills_per_hour": 7,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/1/12/Pet_dark_core.png?54883",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Crazy Archaeologist",
+    "difficulty": 1,
+    "kills_per_hour": 20,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/Crazy_archaeologist_chathead.png?a7568",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Dagannoth Prime",
+    "difficulty": 3,
+    "kills_per_hour": 27,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/3/35/Pet_dagannoth_prime.png?4f9e4",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Dagannoth Rex",
+    "difficulty": 3,
+    "kills_per_hour": 27,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/6/69/Pet_dagannoth_rex.png?4cfb9",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Dagannoth Supreme",
+    "difficulty": 3,
+    "kills_per_hour": 27,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/d/dd/Pet_dagannoth_supreme.png?4cfb9",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Deranged Archaeologist",
+    "difficulty": 3,
+    "kills_per_hour": 27,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/Deranged_archaeologist_chathead.png?a7568",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Duke Sucellus",
+    "difficulty": 4,
+    "kills_per_hour": 17,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Baron_detail.png/130px-Baron_detail.png?74548",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "General Graardor",
+    "difficulty": 4,
+    "kills_per_hour": 17,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/1/16/Pet_general_graardor.png?02e7b",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Giant Mole",
+    "difficulty": 4,
+    "kills_per_hour": 20,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/5/50/Baby_mole.png?877bd",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Grotesque Guardians",
+    "difficulty": 3,
+    "kills_per_hour": 16,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/a/a3/Noon.png?ae711",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Hespori",
+    "difficulty": 3,
+    "kills_per_hour": 1,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Hespori.png/150px-Hespori.png?cd901",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "K'ril Tsutsaroth",
+    "difficulty": 4,
+    "kills_per_hour": 6,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/7/7c/Pet_k%27ril_tsutsaroth.png?0102a",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Kalphite Queen",
+    "difficulty": 3,
+    "kills_per_hour": 15,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/1/1d/Kalphite_princess_%282nd_form%29.png?eb3cc",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "King Black Dragon",
+    "difficulty": 3,
+    "kills_per_hour": 15,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/c/ce/Prince_black_dragon.png?99ce7",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Kraken",
+    "difficulty": 2,
+    "kills_per_hour": 33,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/0/0e/Pet_kraken.png?88e42",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Kree'Arra",
+    "difficulty": 4,
+    "kills_per_hour": 8,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/7/75/Pet_kree%27arra.png?0102a",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "The Leviathan",
+    "difficulty": 4,
+    "kills_per_hour": 10,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Lil%27viathan_detail.png/130px-Lil%27viathan_detail.png?0c09c",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Lunar Chests",
+    "difficulty": 2,
+    "kills_per_hour": 10,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Lunar_Chest_%28open%29.png/280px-Lunar_Chest_%28open%29.png?a87f5",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Mimic",
+    "difficulty": 2,
+    "kills_per_hour": 1,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/The_Mimic.png/250px-The_Mimic.png?b45f4",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Nex",
+    "difficulty": 5,
+    "kills_per_hour": 3,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/Nexling_chathead.png?f48bc",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Obor",
+    "difficulty": 5,
+    "kills_per_hour": 2,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Obor.png/170px-Obor.png?08bc8",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Phantom Muspah",
+    "difficulty": 3,
+    "kills_per_hour": 12,
+    "group_size": 1,
+    "weight": 5,
+    "img": "",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Nightmare",
+    "difficulty": 5,
+    "kills_per_hour": 2,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/7/7e/Little_nightmare.png?5abc0",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Phosani's Nightmare",
+    "difficulty": 5,
+    "kills_per_hour": 5,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/7/7e/Little_nightmare.png?5abc0",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Sarachnis",
+    "difficulty": 3,
+    "kills_per_hour": 15,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/d/d6/Sraracha.png?fe066",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Scorpia",
+    "difficulty": 2,
+    "kills_per_hour": 10,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/a/a2/Scorpia%27s_offspring.png?b6a38",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Scurrius",
+    "difficulty": 2,
+    "kills_per_hour": 20,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/Scurry.png?a2a6a",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Skotizo",
+    "difficulty": 2,
+    "kills_per_hour": 2,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/a/ab/Skotos.png?d4ee4",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Sol Heredit",
+    "difficulty": 2,
+    "kills_per_hour": 0.5,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Smol_Heredit.png/200px-Smol_Heredit.png?571cb",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Spindel",
+    "difficulty": 2,
+    "kills_per_hour": 12,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/b/bb/Venenatis_spiderling.png?df1fe",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "The Corrupted Gauntlet",
+    "difficulty": 2,
+    "kills_per_hour": 4,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/a/a7/Youngllef.png?3e1e7",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "The Gauntlet",
+    "difficulty": 2,
+    "kills_per_hour": 5,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/a/a7/Youngllef.png?3e1e7",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "The Hueycoatl",
+    "difficulty": 2,
+    "kills_per_hour": 5,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/The_Hueycoatl.png/280px-The_Hueycoatl.png?7b216",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "The Royal Titans",
+    "difficulty": 2,
+    "kills_per_hour": 8,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Bran_%28follower%29.png/190px-Bran_%28follower%29.png?68158",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "The Whisperer",
+    "difficulty": 4,
+    "kills_per_hour": 5,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Wisp_detail.png/120px-Wisp_detail.png?0cd33",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Tempoross",
+    "difficulty": 2,
+    "kills_per_hour": 4,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/8/8e/Tiny_Tempor_chathead.png?ebd33",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Theatre of Blood",
+    "difficulty": 5,
+    "kills_per_hour": 1,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/9/9f/Lil%27_zik.png?f3f45",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Theatre of Blood: Hard Mode",
+    "difficulty": 5,
+    "kills_per_hour": 0.1,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/9/9f/Lil%27_zik.png?f3f45",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Thermonuclear Smoke Devil",
+    "difficulty": 3,
+    "kills_per_hour": 24,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/a/ae/Pet_smoke_devil.png?85f05",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Tombs of Amascut",
+    "difficulty": 5,
+    "kills_per_hour": 1.5,
+    "group_size": 2,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/Tumeken%27s_Guardian_chathead.png?cd6a1",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Tombs of Amascut: Expert Mode",
+    "difficulty": 5,
+    "kills_per_hour": 1,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/Tumeken%27s_Guardian_chathead.png?cd6a1",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "TzKal-Zuk",
+    "difficulty": 2,
+    "kills_per_hour": 0.01,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/c/ce/Jal-nib-rek.png?73eb3",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "TzTok-Jad",
+    "difficulty": 2,
+    "kills_per_hour": 1,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/e/ea/Tzrek-jad.png?8b92e",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Vardorvis",
+    "difficulty": 4,
+    "kills_per_hour": 10,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/thumb/Butch_detail.png/120px-Butch_detail.png?3e81b",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Venenatis",
+    "difficulty": 4,
+    "kills_per_hour": 8,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/b/bb/Venenatis_spiderling.png?df1fe",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Vet'ion",
+    "difficulty": 4,
+    "kills_per_hour": 8,
+    "group_size": 2,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/e/eb/Vet%27ion_jr..png?df1fe",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Vorkath",
+    "difficulty": 4,
+    "kills_per_hour": 15,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/4/48/Vorki.png?d9d23",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Wintertodt",
+    "difficulty": 4,
+    "kills_per_hour": 5,
+    "group_size": 1,
+    "weight": 0,
+    "img": "https://oldschool.runescape.wiki/images/c/c1/Phoenix.png?55ffd",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Zalcano",
+    "difficulty": 3,
+    "kills_per_hour": 9,
+    "group_size": 2,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/8/8b/Smolcano.png?ea2c2",
+    "alwaysIncluded": false
+  },
+  {
+    "name": "Zulrah",
+    "difficulty": 4,
+    "kills_per_hour": 17,
+    "group_size": 1,
+    "weight": 5,
+    "img": "https://oldschool.runescape.wiki/images/e/e5/Pet_snakeling.png?91d82",
+    "alwaysIncluded": false
+  }
+]
