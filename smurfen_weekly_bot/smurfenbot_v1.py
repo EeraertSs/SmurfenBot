@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands, tasks
-from library.osrs_highscores import Highscores
 import asyncio
 import aiohttp
 import datetime
@@ -8,6 +7,11 @@ import json
 import random
 import urllib.parse
 import os
+import sys
+
+# Voeg het bovenliggende pad toe aan sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from library.osrs_highscores import Highscores
 
 # === CONFIG ===
 TOKEN = 'MTM2NjE4MjcyMTI4OTcxOTg3OA.Ga75j9.-nne1SElnAeTPJQNdvos0lRFjh1oFR0k3bmWik'
