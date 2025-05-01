@@ -517,7 +517,7 @@
     "difficulty": 2,
     "kills_per_hour": 1,
     "group_size": 1,
-    "weight": 5,
+    "weight": 0,
     "img": "https://oldschool.runescape.wiki/images/e/ea/Tzrek-jad.png?8b92e",
     "alwaysIncluded": false
   },
