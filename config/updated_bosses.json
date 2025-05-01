@@ -4,7 +4,7 @@
     "difficulty": 3,
     "kills_per_hour": 17,
     "group_size": 1,
-    "weight": 3,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/2/2a/Abyssal_orphan.png?957a1",
     "alwaysIncluded": false
   },
@@ -22,7 +22,7 @@
     "difficulty": 5,
     "kills_per_hour": 4,
     "group_size": 1,
-    "weight": 2,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/thumb/Amoxliatl.png/180px-Amoxliatl.png?01b12",
     "alwaysIncluded": false
   },
@@ -31,7 +31,7 @@
     "difficulty": 5,
     "kills_per_hour": 5,
     "group_size": 1,
-    "weight": 2,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/thumb/Araxxor.png/280px-Araxxor.png?35d2e",
     "alwaysIncluded": false
   },
@@ -49,7 +49,7 @@
     "difficulty": 2,
     "kills_per_hour": 20,
     "group_size": 1,
-    "weight": 4,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/Chest_%28Barrows%2C_open%29.png?53b8f",
     "alwaysIncluded": false
   },
@@ -58,7 +58,7 @@
     "difficulty": 1,
     "kills_per_hour": 15,
     "group_size": 1,
-    "weight": 8,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/thumb/Bryophyta.png/220px-Bryophyta.png?08bc8",
     "alwaysIncluded": false
   },
@@ -85,7 +85,7 @@
     "difficulty": 3,
     "kills_per_hour": 20,
     "group_size": 1,
-    "weight": 3,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/7/74/Hellpuppy.png?9ece7",
     "alwaysIncluded": false
   },
@@ -94,7 +94,7 @@
     "difficulty": 4,
     "kills_per_hour": 2,
     "group_size": 2,
-    "weight": 1,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/f/f4/Olmlet.png?f8c27",
     "alwaysIncluded": false
   },
@@ -139,7 +139,7 @@
     "difficulty": 5,
     "kills_per_hour": 7,
     "group_size": 2,
-    "weight": 3,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/1/12/Pet_dark_core.png?54883",
     "alwaysIncluded": false
   },
@@ -157,7 +157,7 @@
     "difficulty": 3,
     "kills_per_hour": 27,
     "group_size": 1,
-    "weight": 4,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/3/35/Pet_dagannoth_prime.png?4f9e4",
     "alwaysIncluded": false
   },
@@ -166,7 +166,7 @@
     "difficulty": 3,
     "kills_per_hour": 27,
     "group_size": 1,
-    "weight": 4,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/6/69/Pet_dagannoth_rex.png?4cfb9",
     "alwaysIncluded": false
   },
@@ -175,7 +175,7 @@
     "difficulty": 3,
     "kills_per_hour": 27,
     "group_size": 1,
-    "weight": 4,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/d/dd/Pet_dagannoth_supreme.png?4cfb9",
     "alwaysIncluded": false
   },
@@ -193,7 +193,7 @@
     "difficulty": 4,
     "kills_per_hour": 17,
     "group_size": 1,
-    "weight": 3,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/thumb/Baron_detail.png/130px-Baron_detail.png?74548",
     "alwaysIncluded": false
   },
@@ -202,7 +202,7 @@
     "difficulty": 4,
     "kills_per_hour": 17,
     "group_size": 1,
-    "weight": 3,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/1/16/Pet_general_graardor.png?02e7b",
     "alwaysIncluded": false
   },
@@ -220,7 +220,7 @@
     "difficulty": 3,
     "kills_per_hour": 16,
     "group_size": 1,
-    "weight": 3,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/a/a3/Noon.png?ae711",
     "alwaysIncluded": false
   },
@@ -238,7 +238,7 @@
     "difficulty": 4,
     "kills_per_hour": 6,
     "group_size": 1,
-    "weight": 3,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/7/7c/Pet_k%27ril_tsutsaroth.png?0102a",
     "alwaysIncluded": false
   },
@@ -265,7 +265,7 @@
     "difficulty": 2,
     "kills_per_hour": 33,
     "group_size": 1,
-    "weight": 2,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/0/0e/Pet_kraken.png?88e42",
     "alwaysIncluded": false
   },
@@ -274,7 +274,7 @@
     "difficulty": 4,
     "kills_per_hour": 8,
     "group_size": 1,
-    "weight": 3,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/7/75/Pet_kree%27arra.png?0102a",
     "alwaysIncluded": false
   },
@@ -283,7 +283,7 @@
     "difficulty": 4,
     "kills_per_hour": 10,
     "group_size": 1,
-    "weight": 3,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/thumb/Lil%27viathan_detail.png/130px-Lil%27viathan_detail.png?0c09c",
     "alwaysIncluded": false
   },
@@ -310,7 +310,7 @@
     "difficulty": 5,
     "kills_per_hour": 3,
     "group_size": 1,
-    "weight": 2,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/Nexling_chathead.png?f48bc",
     "alwaysIncluded": false
   },
@@ -328,7 +328,7 @@
     "difficulty": 3,
     "kills_per_hour": 12,
     "group_size": 1,
-    "weight": 4,
+    "weight": 5,
     "img": "",
     "alwaysIncluded": false
   },
@@ -337,7 +337,7 @@
     "difficulty": 5,
     "kills_per_hour": 2,
     "group_size": 2,
-    "weight": 1,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/7/7e/Little_nightmare.png?5abc0",
     "alwaysIncluded": false
   },
@@ -346,7 +346,7 @@
     "difficulty": 5,
     "kills_per_hour": 5,
     "group_size": 1,
-    "weight": 1,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/7/7e/Little_nightmare.png?5abc0",
     "alwaysIncluded": false
   },
@@ -355,7 +355,7 @@
     "difficulty": 3,
     "kills_per_hour": 15,
     "group_size": 1,
-    "weight": 4,
+    "weight": 5,
     "img": "https://oldschool.runescape.wiki/images/d/d6/Sraracha.png?fe066",
     "alwaysIncluded": false
   },
