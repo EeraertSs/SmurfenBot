@@ -14,7 +14,6 @@ GROUP = 'De Smurfen'
 
 BASE_DIR = os.path.dirname(__file__)
 BOSSES_FILE = os.path.join(BASE_DIR, 'config/updated_bosses.json')
-SKILLS_FILE = os.path.join(BASE_DIR, 'config/skills.json')
 
 TASK = None
 START_STATS = {}
@@ -26,18 +25,15 @@ bot = commands.Bot(command_prefix='/', intents=intents)
 
 with open(BOSSES_FILE, 'r') as f:
     BOSSES_DATA = json.load(f)
-with open(SKILLS_FILE, 'r') as f:
-    SKILLS_DATA = json.load(f)
 
 async def fetch_hiscores(player_name):
     try:
         user_hs = Highscores(player_name)
-        skills = {k.capitalize(): int(v['xp']) if v['xp'] != '-1' else 0 for k, v in user_hs.skill.items()}
         bosses = {k.replace('_', ' ').title(): int(v['kills']) if v['kills'] != '-1' else 0 for k, v in user_hs.boss.items()}
-        return {"skills": skills, "bosses": bosses}
+        return {"bosses": bosses}
     except Exception as e:
         print(f"[HISCORES][ERROR] {e}")
-        return {"skills": {}, "bosses": {}}
+        return {"bosses": {}}
 
 def create_progress_bar(pct):
     total = 20
@@ -45,15 +41,6 @@ def create_progress_bar(pct):
     return '█' * filled + '—' * (total - filled)
 
 def generate_hourly_task():
-    if random.choice(['exp', 'boss']) == 'exp':
-        skill = random.choice(SKILLS_DATA)
-        return {
-            'type': 'exp',
-            'skill': skill['name'],
-            'amount': max(1000, int(skill['xp_per_hour'])),
-            'category': skill.get('category', 'Skilling')
-        }
-    else:
         boss = random.choice(BOSSES_DATA)
         kills = max(1, int(boss['kills_per_hour'] * boss.get('group_size', 1)))
         return {
@@ -79,11 +66,8 @@ async def spin(ctx):
         description=f"🕒 {datetime.datetime.now():%H:%M} → {TASK_END_TIME:%H:%M}",
         color=0x1abc9c
     )
-
-    if TASK['type'] == 'exp':
-        embed.add_field(name=f"📚 Gain {TASK['amount']:,} {TASK['skill']} XP", value="\u200b", inline=False)
-    else:
-        embed.add_field(name=f"⚔️ Kill {TASK['boss']} x{TASK['amount']}", value="\u200b", inline=False)
+    
+    embed.add_field(name=f"⚔️ Kill {TASK['boss']} x{TASK['amount']}", value="\u200b", inline=False)
 
     await ctx.send(embed=embed)
 
@@ -102,21 +86,14 @@ async def show_progress(ctx):
     total = 0
     required = TASK['amount']
 
-    if TASK['type'] == 'exp':
-        for p in PLAYERS:
-            gained = max(current[p]['skills'].get(TASK['skill'], 0) - START_STATS[p]['skills'].get(TASK['skill'], 0), 0)
-            total += gained
-        pct = min(100, total / required * 100)
-        icon = '✅' if total >= required else ('🟠' if total > 0 else '❌')
-        task_line = f"📚 {TASK['skill']} XP: {total:,}/{required:,} {icon}"
-
-    else:
-        for p in PLAYERS:
-            gained = max(current[p]['bosses'].get(TASK['boss'], 0) - START_STATS[p]['bosses'].get(TASK['boss'], 0), 0)
-            total += gained
-        pct = min(100, total / required * 100)
-        icon = '✅' if total >= required else ('🟠' if total > 0 else '❌')
-        task_line = f"⚔️ {TASK['boss']} KC: {total}/{required} {icon}"
+    
+    for p in PLAYERS:
+        gained = max(current[p]['bosses'].get(TASK['boss'], 0) - START_STATS[p]['bosses'].get(TASK['boss'], 0), 0)
+        total += gained
+        
+    pct = min(100, total / required * 100)
+    icon = '✅' if total >= required else ('🟠' if total > 0 else '❌')
+    task_line = f"⚔️ {TASK['boss']} KC: {total}/{required} {icon}"
 
     bar = create_progress_bar(pct)
     embed = discord.Embed(
