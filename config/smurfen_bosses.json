@@ -72,7 +72,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "Calvar'ion",
+    "name": "Calvar ion",
     "difficulty": 2,
     "kills_per_hour": 27,
     "group_size": 1,
@@ -99,7 +99,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "Chambers of Xeric: Challenge Mode",
+    "name": "Chambers of Xeric Challenge Mode",
     "difficulty": 4,
     "kills_per_hour": 1,
     "group_size": 2,
@@ -234,7 +234,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "K'ril Tsutsaroth",
+    "name": "Kril Tsutsaroth",
     "difficulty": 4,
     "kills_per_hour": 6,
     "group_size": 1,
@@ -270,7 +270,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "Kree'Arra",
+    "name": "Kree Arra",
     "difficulty": 4,
     "kills_per_hour": 8,
     "group_size": 1,
@@ -342,7 +342,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "Phosani's Nightmare",
+    "name": "Phosanis Nightmare",
     "difficulty": 5,
     "kills_per_hour": 5,
     "group_size": 1,
@@ -468,7 +468,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "Theatre of Blood: Hard Mode",
+    "name": "Theatre of Blood Hard Mode",
     "difficulty": 5,
     "kills_per_hour": 0.1,
     "group_size": 2,
@@ -495,7 +495,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "Tombs of Amascut: Expert Mode",
+    "name": "Tombs of Amascut Expert Mode",
     "difficulty": 5,
     "kills_per_hour": 1,
     "group_size": 2,
@@ -504,7 +504,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "TzKal-Zuk",
+    "name": "TzKal Zuk",
     "difficulty": 2,
     "kills_per_hour": 0.01,
     "group_size": 1,
@@ -513,7 +513,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "TzTok-Jad",
+    "name": "TzTok Jad",
     "difficulty": 2,
     "kills_per_hour": 1,
     "group_size": 1,
@@ -540,7 +540,7 @@
     "alwaysIncluded": false
   },
   {
-    "name": "Vet'ion",
+    "name": "Vet ion",
     "difficulty": 4,
     "kills_per_hour": 8,
     "group_size": 2,

@@ -22,7 +22,7 @@ GROUP = 'De Smurfen'
 # PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf', 'OpenSauce', 'TinyKeta', 'Ketaminiac']
 
 BASE_DIR = os.path.dirname(__file__)
-BOSSES_FILE = os.path.join(BASE_DIR, '../config/bosses.json')
+BOSSES_FILE = os.path.join(BASE_DIR, '../config/smurfen_bosses.json')
 SKILLS_FILE = os.path.join(BASE_DIR, '../config/skills.json')
 CLUES_FILE = os.path.join(BASE_DIR, '../config/clues.json')
 
