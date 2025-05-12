@@ -143,8 +143,7 @@
     "name": "Runecraft",
     "category": "Skilling",
     "xp_per_hour": 40000,
-    "weight": 7,
-    "alwaysIncluded": true
+    "weight": 5
   },
   {
     "name": "Hunter",
@@ -157,7 +156,7 @@
     "name": "Construction",
     "category": "Skilling",
     "xp_per_hour": 110000,
-    "weight": 7,
-    "alwaysIncluded": true
+    "weight": 5,
+    "alwaysIncluded": false
   }
 ]

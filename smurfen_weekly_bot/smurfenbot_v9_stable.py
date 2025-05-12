@@ -22,9 +22,9 @@ GROUP = 'De Smurfen'
 # PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf', 'OpenSauce', 'TinyKeta', 'Ketaminiac']
 
 BASE_DIR = os.path.dirname(__file__)
-BOSSES_FILE = os.path.join(BASE_DIR, '../config/smurfen_bosses.json')
-SKILLS_FILE = os.path.join(BASE_DIR, '../config/skills.json')
-CLUES_FILE = os.path.join(BASE_DIR, '../config/clues.json')
+BOSSES_FILE = os.path.join(BASE_DIR, '../config/v9/smurfen_bosses.json')
+SKILLS_FILE = os.path.join(BASE_DIR, '../config/v9/skills.json')
+# CLUES_FILE = os.path.join(BASE_DIR, '../config/clues.json')
 
 # Globale state
 TASKS = []
@@ -91,7 +91,7 @@ def generate_boss_tasks(bosses, num_tasks=8, players=len(PLAYERS)):
         tasks.append({"type": "bosskc", "boss": b['name'], "amount": goal, "category": "Boss KC"})
     return tasks
 
-def generate_exp_tasks(skills, num_tasks=3, players=len(PLAYERS)):
+def generate_exp_tasks(skills, num_tasks=2, players=len(PLAYERS)):
     print("[GENERATOR] Generating exp tasks...")
     total_hours = calculate_total_hours(players=players)
     max_hours_exp = total_hours * 0.4  # 40% van totale tijd
