@@ -19,7 +19,7 @@ PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf', 'TinyKeta
 GROUP = 'De Smurfen'
 
 BASE_DIR = os.path.dirname(__file__)
-BOSSES_FILE = os.path.join(BASE_DIR, '../config/temp_bosses.json')
+BOSSES_FILE = os.path.join(BASE_DIR, '../config/bosses.json')
 SKILLS_FILE = os.path.join(BASE_DIR, '../config/skills.json')
 CLUES_FILE = os.path.join(BASE_DIR, '../config/clues.json')
 
@@ -64,7 +64,6 @@ def weighted_selection(items, num_select):
 
     # 6. Safety: als mandatory er al meer zijn dan num_select, truncate
     return selected[:num_select]
-
 
 def generate_boss_tasks(bosses, num_tasks=8, players=len(PLAYERS)):
     print("[GENERATOR] Generating boss tasks...")
@@ -390,5 +389,54 @@ async def on_ready():
             daily_progress_update_loop.start()
             
     print("[BOT] Ready and loops started!")
+    
+@bot.command()
+async def hiscore_bosses(ctx, player: str = "Sukkel Smurf"):
+    """Toont alle boss-namen zoals ze terugkomen uit de highscores voor debug."""
+    print(f"[DEBUG] Ophalen van bosses voor: {player}")
+    try:
+        hs = Highscores(player)
+        bosses = hs.boss  # dict zoals: {'zulrah': {'rank': '...', 'kills': '...'}}
+        
+        boss_names = sorted(bosses.keys())
+        display = "\n".join(f"- {b}" for b in boss_names)
+
+        # Optioneel: enkel tonen in console om discord-spam te vermijden
+        print(f"[HISCORES BOSSEN VOOR {player}]\n{display}")
+
+        await ctx.send(f"✅ Bosses voor `{player}` gelogd in de console. ({len(boss_names)} bosses)")
+    except Exception as e:
+        print(f"[ERROR] Kon bosses niet ophalen: {e}")
+        await ctx.send("❌ Fout bij ophalen highscores.")
+
+@bot.command()
+async def check_boss_matches(ctx, player: str = "Muziek Smurf"):
+    """Vergelijkt bosses.json namen met highscores bosses van de speler."""
+    try:
+        hs = Highscores(player)
+        api_bosses_raw = hs.boss.keys()
+        api_bosses_normalized = {k.replace('_', ' ').lower().strip() for k in api_bosses_raw}
+
+        with open(BOSSES_FILE, 'r') as f:
+            bosses_json = json.load(f)
+
+        json_boss_names = {b['name'].lower().strip() for b in bosses_json}
+
+        # Vergelijk en toon welke uit bosses.json geen match vinden in de highscores
+        unmatched = sorted(json_boss_names - api_bosses_normalized)
+
+        if unmatched:
+            print(f"[UNMATCHED BOSSES IN JSON VS API ({player})]")
+            for name in unmatched:
+                print(f"- {name}")
+
+            preview = "\n".join(unmatched[:20])
+            await ctx.send(f"❗ {len(unmatched)} bosses uit `bosses.json` niet gevonden in de highscores:\n```{preview}```")
+        else:
+            await ctx.send("✅ Alle bosses uit je JSON komen overeen met de highscores!")
+    except Exception as e:
+        print(f"[ERROR] check_boss_matches: {e}")
+        await ctx.send("❌ Fout bij controleren boss-matches.")
+
 
 bot.run(TOKEN)
