@@ -290,7 +290,6 @@ async def generate_weekly_tasks():
     print("[COMMAND] Generation Finished")
     await channel.send(embed=embed)
 
-  
 @tasks.loop(time=datetime.time(hour=12, minute=0, tzinfo=datetime.timezone(datetime.timedelta(hours=2))))
 async def daily_progress_update_loop():
     now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=2)))  # UTC+2 voor België (CET/CEST)
@@ -299,7 +298,6 @@ async def daily_progress_update_loop():
         await update_progress()
     else:
         print(f"[LOOP] {now:%H:%M} – nog niet 12:00.")
-
 
 async def update_progress(ctx=None):
     print("[FUNCTION] Checking progress...")
@@ -516,6 +514,5 @@ async def check_boss_matches(ctx, player: str = "Muziek Smurf"):
     except Exception as e:
         print(f"[ERROR] check_boss_matches: {e}")
         await ctx.send("❌ Fout bij controleren boss-matches.")
-
 
 bot.run(TOKEN)
