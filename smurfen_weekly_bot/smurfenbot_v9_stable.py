@@ -14,9 +14,12 @@ from library.osrs_highscores import Highscores
 # === CONFIG ===
 TOKEN = 'MTM2NjE4MjcyMTI4OTcxOTg3OA.Ga75j9.-nne1SElnAeTPJQNdvos0lRFjh1oFR0k3bmWik'
 CHANNEL_ID = 1366182280661569576
-PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf', 'TinyKeta', 'S0l0 Smurf']
-# PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf', 'OpenSauce', 'TinyKeta', 'Ketaminiac']
+PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf', 'TinyKeta']
 GROUP = 'De Smurfen'
+
+# debug
+# PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf']
+# PLAYERS = ['Muziek Smurf', 'Bril Smurf', 'Sukkel Smurf', 'Smul Smurf', 'OpenSauce', 'TinyKeta', 'Ketaminiac']
 
 BASE_DIR = os.path.dirname(__file__)
 BOSSES_FILE = os.path.join(BASE_DIR, '../config/bosses.json')
@@ -110,6 +113,33 @@ def generate_exp_tasks(skills, num_tasks=3, players=len(PLAYERS)):
         tasks.append({"type": "exp", "skill": s['name'], "amount": goal, "category": s.get('category', 'Skilling')})
     return tasks
 
+def summarize_previous_week(current, start_stats, tasks, players):
+    lines = []
+    progress_points = []
+    done = 0
+
+    for t in tasks:
+        if t['type'] == 'bosskc':
+            total = sum(
+                max(current[p]['bosses'].get(t['boss'], 0) - start_stats[p]['bosses'].get(t['boss'], 0), 0)
+                for p in players
+            )
+        elif t['type'] == 'exp':
+            total = sum(
+                max(current[p]['skills'].get(t['skill'], 0) - start_stats[p]['skills'].get(t['skill'], 0), 0)
+                for p in players
+            )
+        else:
+            continue
+
+        pct = min(100, (total / t['amount']) * 100)
+        progress_points.append(pct)
+        if pct >= 100:
+            done += 1
+
+    overall = sum(progress_points) / len(progress_points) if progress_points else 0
+    return done, len(tasks), overall
+
 
 # def generate_clue_tasks(clues, num_tasks=2):
 #     print("[GENERATOR] Generating clue tasks...")
@@ -173,6 +203,48 @@ async def generate_weekly_tasks():
     now = datetime.datetime.now()
     end = now + datetime.timedelta(days=7)
 
+    # === VOORAF: samenvatting vorige week tonen ===
+    if TASKS and START_STATS:
+        print("[SUMMARY] Samenvatting vorige week wordt berekend...")
+        current = {p: await fetch_hiscores(p) for p in PLAYERS}
+
+        def summarize_previous_week(current, start_stats, tasks, players):
+            progress_points = []
+            done = 0
+            for t in tasks:
+                if t['type'] == 'bosskc':
+                    total = sum(
+                        max(current[p]['bosses'].get(t['boss'], 0) - start_stats[p]['bosses'].get(t['boss'], 0), 0)
+                        for p in players
+                    )
+                elif t['type'] == 'exp':
+                    total = sum(
+                        max(current[p]['skills'].get(t['skill'], 0) - start_stats[p]['skills'].get(t['skill'], 0), 0)
+                        for p in players
+                    )
+                else:
+                    continue
+                pct = min(100, (total / t['amount']) * 100)
+                progress_points.append(pct)
+                if pct >= 100:
+                    done += 1
+            overall = sum(progress_points) / len(progress_points) if progress_points else 0
+            return done, len(tasks), overall
+
+        done, total, overall = summarize_previous_week(current, START_STATS, TASKS, PLAYERS)
+
+        summary_embed = discord.Embed(
+            title=f"📊 Vorige week overzicht – {GROUP}",
+            description=(
+                f"✅ Voltooide taken: {done}/{total}\n"
+                f"📈 Gemiddelde voortgang: {overall:.1f}%\n"
+                "\n🕒 Nieuwe week begint nu!"
+            ),
+            color=0x95a5a6
+        )
+        await channel.send(embed=summary_embed)
+
+    # === Start nieuwe week challenge ===
     raw_tasks = []
     raw_tasks += generate_boss_tasks(BOSSES_DATA)
     raw_tasks += generate_exp_tasks(SKILLS_DATA)
@@ -209,24 +281,25 @@ async def generate_weekly_tasks():
         color=0x3498db
     )
 
-
-
     for t in TASKS:
-        print(f"[TASK] {t}")
         if t['type'] == 'bosskc':
             embed.add_field(name=f"⚔️ Kill {t['boss']} x{t['amount']}", value="\u200b", inline=False)
         elif t['type'] == 'exp':
             embed.add_field(name=f"📚 Gain {t['amount']:,} {t['skill']} XP", value="\u200b", inline=False)
-        # elif t['type'] == 'clue':
-        #     embed.add_field(name="🗈️ Clue", value=f"Complete {t['amount']} {t['tier'].capitalize()} clues", inline=False)
 
     print("[COMMAND] Generation Finished")
     await channel.send(embed=embed)
 
-@tasks.loop(hours=24)
+  
+@tasks.loop(time=datetime.time(hour=12, minute=0, tzinfo=datetime.timezone(datetime.timedelta(hours=2))))
 async def daily_progress_update_loop():
-    print("[LOOP] Checking progress Daily...")
-    await update_progress()
+    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=2)))  # UTC+2 voor België (CET/CEST)
+    if now.hour == 12 and now.minute == 0:
+        print(f"[LOOP] {now} – Het is 12:00, daily progress wordt verzonden.")
+        await update_progress()
+    else:
+        print(f"[LOOP] {now:%H:%M} – nog niet 12:00.")
+
 
 async def update_progress(ctx=None):
     print("[FUNCTION] Checking progress...")
@@ -325,6 +398,13 @@ async def startweek(ctx):
     await ctx.send("✅ Nieuwe week taken gegenereerd!")
 
 @bot.command()
+async def simulate_week(ctx):
+    """Simuleert het verstrijken van een week (voor testdoeleinden)."""
+    await ctx.send("🧪 Simulatie: vorige week samenvatting + nieuwe challenge wordt gegenereerd...")
+    await generate_weekly_tasks()
+
+
+@bot.command()
 async def starttestweek(ctx):
     print("[COMMAND] /starttestweek triggered (Test Mode)")
     global TASKS, START_STATS
@@ -356,7 +436,6 @@ async def starttestweek(ctx):
 
     await ctx.send("🛠️ **Testweek gestart!** Taken zijn geladen.")
     await channel.send(embed=embed)
-
 
 @bot.command()
 async def progress(ctx):
